@@ -2,4 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse('<h1>hi world!</h1>')
+    return render(request, 'main/main.html')
+
+def getInfo(request):
+    return render(request, 'main/about.html')
