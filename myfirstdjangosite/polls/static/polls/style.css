@@ -1,0 +1,9 @@
+body {
+    background: white url("images/sunset-3325080_1280.jpg") no-repeat;
+    width: 100%;
+}
+
+li a {
+    font-size: 25px;
+    color: rgb(253, 215, 0);
+}
